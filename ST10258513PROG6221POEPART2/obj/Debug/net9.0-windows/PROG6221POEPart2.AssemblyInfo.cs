@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PROG6221POEPart2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e884190800eb88582e959dd7fda245cd3695466b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c232ef53f0a3c697b63f822d6e85e5749317661")]
 [assembly: System.Reflection.AssemblyProductAttribute("PROG6221POEPart2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PROG6221POEPart2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

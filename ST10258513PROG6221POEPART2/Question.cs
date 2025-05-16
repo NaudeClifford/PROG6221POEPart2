@@ -2,6 +2,7 @@
 using System.Media;
 using System.Numerics;
 using System.Security.Policy;
+using static PROG6221POEPart2.AbstractClassd;
 
 namespace PROG6221POEPart2
 {

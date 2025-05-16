@@ -112,7 +112,7 @@ namespace PROG6221POEPart2
         public interface IClassd 
         {
 
-            abstract string ToString();
+            abstract void OutPut(string message);
         }
 
 
