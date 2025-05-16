@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using static System.Net.Mime.MediaTypeNames;
-
+﻿
 namespace PROG6221POEPart2
 {
     internal abstract class AbstractClassd
@@ -107,7 +99,7 @@ namespace PROG6221POEPart2
             return result;
         }
 
-        //================== interface for a ToString if the user would like to ask for there information  ==================
+        //================== interface for a printing out messages to the user  ==================
 
         public interface IClassd 
         {

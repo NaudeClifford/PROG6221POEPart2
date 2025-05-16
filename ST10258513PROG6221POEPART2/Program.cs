@@ -2,22 +2,17 @@
 namespace PROG6221POEPart2
 {
 
-using System;
-    using System.Linq.Expressions;
-    using System.Media;
-    using System.Drawing;
-    using static System.Runtime.InteropServices.JavaScript.JSType;
-    using static System.Net.Mime.MediaTypeNames;
+    using System;
     using static PROG6221POEPart2.Question;
     using static PROG6221POEPart2.AbstractClassd;
+
+    //================== IClassd is the interface for printing out messages ==================
 
     internal class Program : IClassd
     {
         static void Main(string[] args)
         {
-            //https://www.diagnosticsincontrol.com/wp-content/uploads/2023/11/Cyber-Security-Logo-PNG-800x849.png
-            //https://www.asciiart.eu/image-to-ascii
-
+            
             //================== Formatting text colour ==================
             Console.ForegroundColor = ConsoleColor.Blue;
 

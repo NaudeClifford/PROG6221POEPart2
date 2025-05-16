@@ -1,8 +1,4 @@
-﻿using System;
-using System.Media;
-using System.Numerics;
-using System.Security.Policy;
-using static PROG6221POEPart2.AbstractClassd;
+﻿using System.Media;
 
 namespace PROG6221POEPart2
 {
@@ -49,6 +45,8 @@ namespace PROG6221POEPart2
             
         }
 
+        //================== Logo for application ==================
+
         public string logo() 
         {
 
@@ -79,6 +77,8 @@ namespace PROG6221POEPart2
                 "\n              ++++++++************+*              \r" +
                 "\n                 +++++++********* ";
         }
+
+        //================== welcome Message for application ==================
 
         public string welcomeMessage() 
         {
@@ -120,6 +120,8 @@ namespace PROG6221POEPart2
         int randomNumber;
 
         int randomNumberEmotions;
+
+        //================== Other questions that the user would ask thats not related to cybersecurity ==================
 
         public string otherQuestions(string question, string emotion) 
         {
@@ -373,7 +375,6 @@ namespace PROG6221POEPart2
             Console.WriteLine(responseArray[randomNumber]);
         }
         
-        
         //answer to phishing question
 
         public void Phishing(string emotion)
@@ -440,6 +441,7 @@ namespace PROG6221POEPart2
             Console.WriteLine(responseArray[randomNumber]);
            
         }
+        
         //answer to safe browsing question
 
         public void SafeBrowsing(string emotion)
